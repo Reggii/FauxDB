@@ -6,4 +6,4 @@ user = (Enter your local MySQL username)
 password = (Enter your local MySQL password)
 database = (Enter the name of the database that you have created)
 
-Launch using init.py . . .
+Launch using _init.py . . .
