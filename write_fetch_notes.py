@@ -33,9 +33,7 @@ def fetch_notes(username):
 
 def continue_or_quit(username):
     action = ''
-    while not (
-            action == '1' or action == '2' or action == '3'
-    ):
+    while not (action == '1' or action == '2' or action == '3'):
         action = input(
             f'\nPlease select an option (type the number):\n'
             f'1) Write new notes\n'
@@ -47,7 +45,4 @@ def continue_or_quit(username):
     if action == '2':
         fetch_notes(username)
     if action == '3':
-        print(
-            '\n. . . . . . . \n'
-            'E x i t i n g'
-        )
+        print('\n. . . . . . . \n' 'E x i t i n g')
