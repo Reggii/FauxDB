@@ -3,7 +3,7 @@ import pymysql
 # Re-usable data base connection function
 def con():
     return pymysql.connect(
-        host="localhost", user="", password="", database="FauxDB"
+        host="localhost", user="", password="", database=""
     )
 
 
