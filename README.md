@@ -1,5 +1,7 @@
 # FauxDB
-# For educational purposes
+For educational purposes
+
+Required Python package: PyMySQL
 
 Small one to many SQL terminal program that allows you to register a user, log-in and save notes
 
